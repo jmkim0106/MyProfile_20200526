@@ -16,23 +16,23 @@
             android:gravity="center">
 
             <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profileImg"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 app:civ_border_width="2dp"
                 app:civ_border_color="#fefe00"
-                android:src="@drawable/mycat"
+                android:src="@mipmap/ic_launcher"
                 android:scaleType="centerCrop"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="햇님이"
+                android:text="햇님이"
                 android:layout_marginTop="5dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="햇님이"
                 android:text="사진을 누르면 확대됩니다."
                 android:textSize="10sp"
                 android:layout_marginTop="5dp"/>
